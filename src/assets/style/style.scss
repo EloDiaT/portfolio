@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: $bg;
+  font-family: "IBM Plex Sans",sans-serif;
+  line-height: 1.5;
+  font-size: 10px;
+  @media all and (max-width: 1050px) {
+    font-size: 9px;
+  }
+  @media all and (max-width: 950px) {
+    font-size: 8px;
+  }
+  @media all and (max-width: 840px) {
+    font-size: 7px;
+  }
+  @media all and (max-width: 320px) {
+    font-size: 2.3vw;
+  }
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size: 10px;
+  @media all and (max-width: 320px) {
+    font-size: 2.3vw;
+  }
+}
+.font-m {
+  font-size: 1.6em;
+}
+.font-b {
+  font-size: 2em;
+}
+.font-l {
+  font-size: 1.2em;
+}
+.font-ml {
+  font-size: 1.4em;
+}
+.font-big {
+  font-size: 4.8em;
+}
+
+.link {
+  color: $green;
+  transition: $mainAnimStyle;
+  text-decoration: none;
+  &:hover {
+    color: $colorText2;
+  }
+}
